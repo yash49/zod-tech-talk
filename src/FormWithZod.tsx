@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import { Button, Stack, TextField, type TextFieldProps } from "@mui/material";
 import { z } from "zod/v4";
 
+// schema with custom error messages
 const formSchema = z.object({
   username: z
     .string()
